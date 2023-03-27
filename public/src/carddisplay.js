@@ -2,29 +2,41 @@ import React from "react";
 import arkhamcards from "./arkhamcards.json";
 import { useState, useEffect } from "react";
 import "./carddisplay.css";
+import Button from "./button";
+import Card from "./card";
+
 
 
 
 
 
 export default function CardDisplay() {
-    const cards = arkhamcards.filter( (card) => card.type_name === 'Investigator' );
-   
+    // const cards = arkhamcards.filter( (card) => card.type_name === 'Investigator' );
+    
+    const [investdisplay, setInvest] = useState([]);
     const [cardsdisplay, setCards] = useState([]);
     
+
     let filterPackSet = (name) => {
         console.log("In Filter Pack Set");
        
-        const pack = arkhamcards.filter( (card) => card.pack_name === name );
+        const pack = arkhamcards.filter( (card) => card.pack_name === name && card.type_name !== 'Investigator' );
+        const invest = arkhamcards.filter( (card) => card.pack_name === name && card.type_name === 'Investigator' );
        
         const carddiv = pack.map( (card) => {
-            return <div className = 'card' key = {card.name+card.imagesrc}>
-         
-            <img width = "auto" height = "250px" src = {"https://arkhamdb.com"+card.imagesrc}></img>
-         
-            </div>
+      
+            return <Card 
+                    imagesrc = {card.imagesrc} 
+                    key = {card.name+card.imagesrc}/>
           });
-        setCards(carddiv,carddiv);
+        
+        const investdiv = invest.map( (card) => {
+            return <Card
+                    imagesrc = {card.imagesrc}
+                    key = {card.name+card.imagesrc}/>
+        });
+        setInvest(investdiv);
+        setCards(carddiv);
     }
     
    
@@ -50,6 +62,7 @@ export default function CardDisplay() {
         <button
         onClick = {() => filterPackSet('The Circle Undone')}>The Circle Undone</button>
         <div>
+            <div className = "investigators"> {investdisplay}</div>
             <div className = "cards">{cardsdisplay}</div>
         </div>
         </div>

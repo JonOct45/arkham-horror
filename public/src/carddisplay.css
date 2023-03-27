@@ -1,6 +1,47 @@
+.button {
+    display: none;
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(238, 57, 57);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.card{
+    filter: blur(4px);
+    border-style: double;
+    border: #4CAF50;
+}
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
-  
+    display: inline-block;
+    filter: blur(0px);
+    
 
+}
+
+/* Investigators */
+
+/* Path: public\src\investigator.css */
+
+.investigators {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #c44623;
+    border: none;
+    color: rgb(238, 57, 57);
+    padding: 15px 32px;
+    text-align: flex-start;
+    text-decoration: none;
+    margin-right: 10vw;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
