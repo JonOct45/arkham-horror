@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import arkhamcards from './arkhamcards.json';
 import './app.css';
-import CardDisplay from './carddisplay.js';
+import CardDisplay from './components/carddisplay.js';
+import Navbar from './components/navbar.js';
+import Home from './components/home.js';
 
-import Button from '@mui/material/Button';
 
 /*
 Will need to set up the routers and the routes here.App
@@ -19,12 +19,15 @@ export function App() {
   
   return (
     <div>
-      <h1>Arkham Horror! uwu</h1>
-      <Button variant="contained">Hello World</Button>
-     <CardDisplay />
-
-      {/* /* <div>{JSON.stringify(cards)}</div> */}
+      <Navbar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/carddisplay" element={<CardDisplay />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
+export default App;

@@ -1,7 +1,7 @@
 import React from "react";
-import arkhamcards from "./arkhamcards.json";
+import arkhamcards from "../arkhamcards.json";
 import { useState, useEffect } from "react";
-import "./carddisplay.css";
+import "../css/carddisplay.css";
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Cards from "./card";
@@ -12,15 +12,15 @@ import Cards from "./card";
 
 
 
-export default function CardDisplay() {
+export default function CardDisplay(props) {
     // const cards = arkhamcards.filter( (card) => card.type_name === 'Investigator' );
     
-    const [investdisplay, setInvest] = useState([]
-        
-        );
+    // Hook to set the state of the cards to be displayed
+    const [investdisplay, setInvest] = useState([]);
     const [cardsdisplay, setCards] = useState([]);
     
 
+    
     let filterPackSet = (name) => {
         console.log("In Filter Pack Set");
        
@@ -64,21 +64,14 @@ export default function CardDisplay() {
     }
 
     //Function that removes the filter blur from the cards
-    let removeFilter = () => {
-    useEffect(() => {
-        const cards = document.querySelectorAll(".card");
-        cards.forEach( (card) => {
-            card.style.filter = "none";
-        })
-    }, [cardsdisplay])
-    }
+    
     
 
 
     return (
         
         <div>
-            <div className = "rfilter"><Button onClick = {() => removeFilter()}>Remove</Button></div>
+            
             <div className = "buttons">{createButtons()}</div>
             <div className = "investigators"> {investdisplay}</div>
             <div className = "cards">{cardsdisplay}</div>
@@ -86,3 +79,4 @@ export default function CardDisplay() {
         
     );
 }
+
