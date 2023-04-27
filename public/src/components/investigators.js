@@ -1,10 +1,13 @@
 import React from "react";
-
+import { returnInvestigators } from "./searchengine";
 
 export default function Investigators() {
+
+    let returnsInvest = returnInvestigators();
+
     return (
         <div>
-            <h1>Investigators</h1>
+            {returnsInvest}
         </div>
     )
 }

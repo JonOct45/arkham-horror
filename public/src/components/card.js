@@ -1,5 +1,9 @@
 import React from "react";
 import Card from '@mui/material/Card';
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import Grid from '@mui/material/Grid';
 
 
 export default function Cards(props) {
@@ -11,11 +15,33 @@ export default function Cards(props) {
 
             
     // )
+
+ 
+    let imageName = "https://arkhamdb.com" + props.props.imagesrc;
+    console.log(props.props.imagesrc);
+    
     return (
-        <div className="card"><Card sx={{ maxWidth: 345, padding: .3}}>
-            <img width = "auto" height = "250px" src = {"https://arkhamdb.com"+props.imagesrc}></img>
-        </Card></div>
-        
+        <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+        <Card  className="card" sx={{ maxWidth: 345, padding: .3}} key={props.name}>
+            <CardMedia 
+                atl = {props.name}
+                component = "img"
+                height = "auto"
+                image = {imageName}
+                
+                />
+            <CardContent>
+                <Typography gutterBottom variant="h6" component="div">
+                    Artist: {props.props.illustrator}
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                    {props.props.text}
+                </Typography>
+            </CardContent>
+
+            {/* <img width = "auto" height = "250px" src = {"https://arkhamdb.com"+props.imagesrc}></img>  */}
+        </Card>
+        </Grid>
     )
 }
 

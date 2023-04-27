@@ -5,6 +5,7 @@ import CardDisplay from './components/carddisplay.js';
 import CardSearch from './components/cardsearch.js';
 import Navbar from './components/navbar.js';
 import Home from './components/home.js';
+import Investigators from './components/investigators';
 
 
 /*
@@ -26,6 +27,7 @@ export function App() {
           <Route path="/" element={<Home />} />
           <Route path="/carddisplay" element={<CardDisplay />} />
           <Route path ="/cardsearch" element={<CardSearch />} />
+          <Route path ="/investigators" element={<Investigators />} />
         </Routes>
       </BrowserRouter>
     </div>

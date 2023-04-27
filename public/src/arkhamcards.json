@@ -2,7 +2,7 @@
     {
         "name": "Roland Banks",
         "pack_name": "Core Set",
-        "text": "[reaction] After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)\n[elder_sign] effect: +1 for each clue on your location.",
+        "text": "[reaction] After you defeat a\nn enemy: Discover 1 clue at your location. (Limit once per round.)\n[elder_sign] effect: +1 for each clue on your location.",
         "illustrator": "Magali Villeneuve",
         "imagesrc": "/bundles/cards/01001.png",
         "type_name": "Investigator",
@@ -7958,7 +7958,7 @@
     {
         "name": "Madness Dies",
         "pack_name": "Dim Carcosa",
-        "text": "Hastur gets +2 fight.<br/>Hastur cannot be defeated unless an investigator \"know the secret.\"",
+        "text": "Hastur gets +2 fight.\nHastur cannot be defeated unless an investigator \"know the secret.\"",
         "illustrator": "Helge C. Balzer",
         "imagesrc": "/bundles/cards/03319.png",
         "type_name": "Agenda",
@@ -9605,7 +9605,7 @@
     {
         "name": "Second Wind",
         "pack_name": "The Boundary Beyond",
-        "text": "Play only as your first action.<br/>Heal 1 damage (2 instead if you drew a treachery this round). Then, draw 1 card.",
+        "text": "Play only as your first action.\nHeal 1 damage (2 instead if you drew a treachery this round). Then, draw 1 card.",
         "illustrator": "Tiziano Baracchi",
         "imagesrc": "/bundles/cards/04149.png",
         "type_name": "Event",
@@ -9614,7 +9614,7 @@
     {
         "name": "Take the Initiative",
         "pack_name": "The Boundary Beyond",
-        "text": "Commit only to a skill test you are performing.<br/>Take the Initiative loses [wild] for each action that has been completed by any investigator this phase.",
+        "text": "Commit only to a skill test you are performing.\nTake the Initiative loses [wild] for each action that has been completed by any investigator this phase.",
         "illustrator": "Tiziano Baracchi",
         "imagesrc": "/bundles/cards/04150.png",
         "type_name": "Skill",
@@ -9632,7 +9632,7 @@
     {
         "name": "Truth from Fiction",
         "pack_name": "The Boundary Beyond",
-        "text": "Play only if there is a clue on your location.<br/>Place 2 secrets on an asset you control.",
+        "text": "Play only if there is a clue on your location.\nPlace 2 secrets on an asset you control.",
         "illustrator": "Maggie Ivy",
         "imagesrc": "/bundles/cards/04152.png",
         "type_name": "Event",
@@ -9641,7 +9641,7 @@
     {
         "name": "True Understanding",
         "pack_name": "The Boundary Beyond",
-        "text": "Commit only to a skill test from an ability printed on a scenario card.<br/>If this skill test is successful, discover 1 clue at your location.",
+        "text": "Commit only to a skill test from an ability printed on a scenario card.\nIf this skill test is successful, discover 1 clue at your location.",
         "illustrator": "Alexander Kozachenko",
         "imagesrc": "/bundles/cards/04153.png",
         "type_name": "Skill",
@@ -9695,7 +9695,7 @@
     {
         "name": "Try and Try Again",
         "pack_name": "The Boundary Beyond",
-        "text": "Uses (3 tries). If Try and Try Again has no tries, discard it.<br/>[reaction] After a skill test is failed, if a skill card you own is committed to that test, exhaust Try and Try Again and spend 1 try: Return that skill card to your hand.",
+        "text": "Uses (3 tries). If Try and Try Again has no tries, discard it.\n[reaction] After a skill test is failed, if a skill card you own is committed to that test, exhaust Try and Try Again and spend 1 try: Return that skill card to your hand.",
         "illustrator": "Borja Pindado",
         "imagesrc": "/bundles/cards/04159.png",
         "type_name": "Asset",
@@ -16850,7 +16850,7 @@
     {
         "name": "The Black Cat",
         "pack_name": "Where the Gods Dwell",
-        "text": "Anytime you reveal a [tablet], [elder_thing], or [elder_sign] symbol during a skill test, you may choose to use the following effects instead of that symbol's normal effects:\n[tablet]: -1. The Black Cat takes 1 direct damage.\n[elder_thing]: -1. The Black Cat takes 1 direct horror.\n[elder_sign]: +5. Heal all damage and horror from The Black Cat.",
+        "text": "Anytime you reveal a [tablet], [elder_thing], or [elder_sign] symbol during a skill test, you may choose to use the following effects instead of that symbol's normal effects:\n[tablet]: -1. The Black Cat takes 1 direct damage.\n[elder_thing]: -1. The Black Cat takes 1 direct horror.[elder_sign]: +5. Heal all damage and horror from The Black Cat.",
         "illustrator": "Derek D. Edgell",
         "imagesrc": "/bundles/cards/06285.png",
         "type_name": "Asset",
@@ -21881,7 +21881,7 @@
     {
         "name": "Study",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "[action] [action]: Draw 3 cards. Only the lead investigator can activate this ability.<br/><b>Forced</b> - When an enemy attempts to spawn at a location that is not in play: Put that location into play and spawn that enemy there.",
+        "text": "[action] [action]: Draw 3 cards. Only the lead investigator can activate this ability.\n<b>Forced</b> - When an enemy attempts to spawn at a location that is not in play: Put that location into play and spawn that enemy there.",
         "illustrator": "Yoann Boissonnet",
         "imagesrc": "/bundles/cards/50013.png",
         "type_name": "Location",
@@ -21962,7 +21962,7 @@
     {
         "name": "Corpse-Hungry Ghoul",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Bedroom.<br/>Hunter.",
+        "text": "<b>Spawn</b> - Bedroom.\nHunter.",
         "illustrator": "Rafał Hrynkiewicz",
         "imagesrc": "/bundles/cards/50022.png",
         "type_name": "Enemy",
@@ -21971,7 +21971,7 @@
     {
         "name": "Ghoul from the Depths",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Bathroom.<br/>Retaliate.<br/>",
+        "text": "<b>Spawn</b> - Bathroom.\nRetaliate.\n",
         "illustrator": "Sam Lamont",
         "imagesrc": "/bundles/cards/50023.png",
         "type_name": "Enemy",
@@ -21998,7 +21998,7 @@
     {
         "name": "Narôgath",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Engaged with Prey.<br/><b>Prey</b> - Nearest to another [[Cultist]] enemy.<br/>Hunter.<br/>Narôgath gets +3 health per investigator.<br/>While Narôgath is ready, each investigator at its location or a connecting location cannot <b>Parley</b> with [[Cultist]] enemies.",
+        "text": "<b>Spawn</b> - Engaged with Prey.\n<b>Prey</b> - Nearest to another [[Cultist]] enemy.\nHunter.\nNarôgath gets +3 health per investigator.\nWhile Narôgath is ready, each investigator at its location or a connecting location cannot <b>Parley</b> with [[Cultist]] enemies.",
         "illustrator": "Helge C. Balzer",
         "imagesrc": "/bundles/cards/50026b.png",
         "type_name": "Enemy",
@@ -22052,7 +22052,7 @@
     {
         "name": "Vault of Earthly Demise",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "Vault of Earthly Demise cannot leave play. <br/>Umôrdhoth gets +X health per investigator and gets +X fight, where X is the number of resources on this card.<br/><b>Forced</b> - When Umôrdhoth enters play, place 1 resource on this card for each act remaining in the act deck.",
+        "text": "Vault of Earthly Demise cannot leave play. \nUmôrdhoth gets +X health per investigator and gets +X fight, where X is the number of resources on this card.\n<b>Forced</b> - When Umôrdhoth enters play, place 1 resource on this card for each act remaining in the act deck.",
         "illustrator": "Mathias Kollros",
         "imagesrc": "/bundles/cards/50032b.png",
         "type_name": "Treachery",
@@ -22115,7 +22115,7 @@
     {
         "name": "Acolyte of Umôrdhoth",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Prey</b> - Fewest cards in hand.<br/>While engaged with an investigator with no cards in his or her hand, Acolyte of Umôrdhoth cannot be evaded.",
+        "text": "<b>Prey</b> - Fewest cards in hand.\nWhile engaged with an investigator with no cards in his or her hand, Acolyte of Umôrdhoth cannot be evaded.",
         "illustrator": "Stephen Somers",
         "imagesrc": "/bundles/cards/50039.png",
         "type_name": "Enemy",
@@ -22133,7 +22133,7 @@
     {
         "name": "Disciple of the Devourer",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Farthest empty location.<br/><b>Forced</b> - After you spawn Disciple of the Devourer: You must either place 1 doom on it or place 1 of your clues on its location. If the current agenda is not agenda 1, do both instead.",
+        "text": "<b>Spawn</b> - Farthest empty location.\n<b>Forced</b> - After you spawn Disciple of the Devourer: You must either place 1 doom on it or place 1 of your clues on its location. If the current agenda is not agenda 1, do both instead.",
         "illustrator": "Ilich Henriquez",
         "imagesrc": "/bundles/cards/50041.png",
         "type_name": "Enemy",
@@ -22142,7 +22142,7 @@
     {
         "name": "Corpse-Taker",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Farthest empty location.<br/><b>Forced</b> - At the end of the mythos phase: Place 1 doom on Corpse-Taker.<br/><b>Forced</b> - At the end of the enemy phase: Corpse-Taker moves once toward Rivertown or Main Path. If Corpse-Taker is already at Rivertown or Main Path, move all doom from Corpse-Taker to the current agenda, instead.",
+        "text": "<b>Spawn</b> - Farthest empty location.\n<b>Forced</b> - At the end of the mythos phase: Place 1 doom on Corpse-Taker.\n<b>Forced</b> - At the end of the enemy phase: Corpse-Taker moves once toward Rivertown or Main Path. If Corpse-Taker is already at Rivertown or Main Path, move all doom from Corpse-Taker to the current agenda, instead.",
         "illustrator": "Ilich Henriquez",
         "imagesrc": "/bundles/cards/50042.png",
         "type_name": "Enemy",
@@ -22151,7 +22151,7 @@
     {
         "name": "Mask of Umôrdhoth",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Revelation</b> - Attach to the farthest [[Cultist]] enemy and place 1 doom on that enemy. If there are no [[Cultist]] enemies in play, search the encounter deck and discard pile for a [[Cultist]] enemy, draw it, and attach Mask of Umôrdhoth to it. Shuffle the encounter deck.<br/>Attached enemy gets +2 health. If attached enemy is unique, it gains retaliate. If it is non-unique, it gains aloof instead.",
+        "text": "<b>Revelation</b> - Attach to the farthest [[Cultist]] enemy and place 1 doom on that enemy. If there are no [[Cultist]] enemies in play, search the encounter deck and discard pile for a [[Cultist]] enemy, draw it, and attach Mask of Umôrdhoth to it. Shuffle the encounter deck.\nAttached enemy gets +2 health. If attached enemy is unique, it gains retaliate. If it is non-unique, it gains aloof instead.",
         "illustrator": "Adam Lane",
         "imagesrc": "/bundles/cards/50043.png",
         "type_name": "Treachery",
@@ -22160,7 +22160,7 @@
     {
         "name": "Jeremiah Pierce",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Your House. Otherwise, Rivertown.<br/>[action]: <b>Parley.</b> Add Jeremiah Pierce to the victory display. Then, test [willpower] (4). Place 1 doom on the current agenda for each point you fail by (this can cause the current agenda to advance).",
+        "text": "<b>Spawn</b> - Your House. Otherwise, Rivertown.\n[action]: <b>Parley.</b> Add Jeremiah Pierce to the victory display. Then, test [willpower] (4). Place 1 doom on the current agenda for each point you fail by (this can cause the current agenda to advance).",
         "illustrator": "Joshua Cairós",
         "imagesrc": "/bundles/cards/50044.png",
         "type_name": "Enemy",
@@ -22169,7 +22169,7 @@
     {
         "name": "Billy Cooper",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Easttown.<br/><b>Forced</b> - After a [[Monster]] enemy is defeated at Billy Cooper's location: Add Billy Cooper to the victory display.",
+        "text": "<b>Spawn</b> - Easttown.\n<b>Forced</b> - After a [[Monster]] enemy is defeated at Billy Cooper's location: Add Billy Cooper to the victory display.",
         "illustrator": "Joshua Cairós",
         "imagesrc": "/bundles/cards/50045.png",
         "type_name": "Enemy",
@@ -22178,7 +22178,7 @@
     {
         "name": "Alma Hill",
         "pack_name": "Return to the Night of the Zealot",
-        "text": "<b>Spawn</b> - Southside.<br/>[action]: <b>Parley.</b> Draw the top 3 cards of the encounter deck. Then, add Alma Hill to the victory display.",
+        "text": "<b>Spawn</b> - Southside.\n[action]: <b>Parley.</b> Draw the top 3 cards of the encounter deck. Then, add Alma Hill to the victory display.",
         "illustrator": "Rafał Hrynkiewicz",
         "imagesrc": "/bundles/cards/50046.png",
         "type_name": "Enemy",

@@ -35,7 +35,7 @@ export default function Navbar() {
             
             <h1>Navbar</h1>
             <Button variant="contained" href = {`/`}>Home</Button>
-            <Button variant="contained" href ={`/carddisplay`}>Investigators</Button>
+            <Button variant="contained" href ={`/investigators`}>Investigators</Button>
             <Button variant="contained">Pack Names</Button>
             <Button variant="contained" href = {`/cardsearch`}>Search</Button>
             <div>  -------------------- </div>
