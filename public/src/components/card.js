@@ -22,9 +22,9 @@ export default function Cards(props) {
     
     return (
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
-        <Card  className="card" sx={{ maxWidth: 345, padding: .3}} key={props.name}>
+        <Card  className="card" sx={{ maxWidth: 345, padding: .3}} key={props.props.name}>
             <CardMedia 
-                atl = {props.name}
+                atl = {props.props.name}
                 component = "img"
                 height = "auto"
                 image = {imageName}

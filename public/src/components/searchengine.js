@@ -40,7 +40,7 @@ export function returnInvestigators() {
     
     );
 
-    console.log(investigatorFilter);
+  
     return <Grid
                 container  
                 spacing={2}
@@ -56,10 +56,25 @@ export function searchByName(cards, name) {
     return card;
 }
 
-export function searchByPack(cards, pack) {
+export function searchByPack(pack) {
     //Filter the cards by pack
-    let card = cards.filter(card => card.pack_name === pack);
-    return card;
+    const cards = arkhamcards.filter( (card) => card.pack_name === pack && card.type_name !== 'Investigator' );
+    console.log(cards.length)
+    let cardFilter = cards.map(card => {
+
+        return <Cards props={card} />
+    }
+
+    );
+
+    return <Grid
+                container
+                spacing={2}
+                >
+                {cardFilter}
+            </Grid>;
+
+
 }
 
 export function searchByType(cards, type) {

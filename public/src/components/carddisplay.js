@@ -5,18 +5,19 @@ import "../css/carddisplay.css";
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Cards from "./card";
+import Card from "./card";
+import { searchByPack } from "./searchengine";
 
 
 
 
 
 
-
-export default function CardDisplay(props) {
+export default function CardDisplay() {
     // const cards = arkhamcards.filter( (card) => card.type_name === 'Investigator' );
     
     // Hook to set the state of the cards to be displayed
-    const [investdisplay, setInvest] = useState([]);
+    const [investdisplay, setInvest] = useState([<>Hello</>]);
     const [cardsdisplay, setCards] = useState([]);
     
 
@@ -29,13 +30,13 @@ export default function CardDisplay(props) {
        
         const carddiv = pack.map( (card) => {
       
-            return <Cards 
+            return <Card
                     imagesrc = {card.imagesrc} 
                     key = {card.name+card.imagesrc}/>
           });
         
         const investdiv = invest.map( (card) => {
-            return <Cards
+            return <Card
                     imagesrc = {card.imagesrc}
                     key = {card.name+card.imagesrc}/>
         });
@@ -57,7 +58,7 @@ export default function CardDisplay(props) {
   
 
         const buttons = uniquepacknames.map( (name) => {
-            return <Button variant = "contained" onClick={() => filterPackSet(name)}>{name}</Button>
+            return <Button variant = "contained" onClick={() => setCards(searchByPack(name))}>{name}</Button>
         });
 
       return buttons
